@@ -1,2 +1,2 @@
 # image_processing
-Project made at programming course provided at Wroclaw University of Science and Technology
+Project made in C++ at programming course provided at Wroclaw University of Science and Technology
