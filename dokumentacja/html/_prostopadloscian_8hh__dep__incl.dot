@@ -1,0 +1,20 @@
+digraph "inc/Prostopadloscian.hh"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node17 [label="inc/Prostopadloscian.hh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="inc/Dron.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dron_8hh.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="inc/menu.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8hh.html"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node19 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="src/menu.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8cpp.html"];
+  Node18 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="src/Dron.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dron_8cpp.html"];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="src/Prostopadloscian.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_prostopadloscian_8cpp.html"];
+}

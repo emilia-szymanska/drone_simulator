@@ -1,0 +1,25 @@
+digraph "Prostopadloscian::pobierzpunkty"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node24 [label="Prostopadloscian::pobierzpunkty",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node24 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="Prostopadloscian::Prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#a36225e7ea9ae366bef5bae0ccfbefaa3"];
+  Node24 -> Node26 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node26 [label="Prostopadloscian::wyswietl\l_wierzcholki",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ad060bf4291990fa4a869282f16464ca1"];
+  Node26 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 [label="Prostopadloscian::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#afd6dbd322a3555b5fc4a708a9bc5d6eb"];
+  Node27 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node27 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node28 [label="Dron::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron.html#a6c0625dd2bc1a692a39ed7720340fdac"];
+  Node28 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node29 [label="main",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4"];
+  Node28 -> Node30 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node30 [label="menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8cpp.html#a32558d87c910f3fb076aab4729d72b33"];
+  Node30 -> Node29 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 -> Node31 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node31 [label="Prostopadloscian::wyswietlczypoprawne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#afa8b83987f890d079496aaba624a38d7"];
+  Node31 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

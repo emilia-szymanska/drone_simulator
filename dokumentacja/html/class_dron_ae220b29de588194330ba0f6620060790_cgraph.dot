@@ -1,0 +1,11 @@
+digraph "Dron::przod"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node10 [label="Dron::przod",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="torad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8hh.html#a1febcc0fdf9b9f7f0c8390a2f2a15c4b"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Prostopadloscian::przesunowektor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ace7e53c3885b4ec60510f7b6d72c7768"];
+}

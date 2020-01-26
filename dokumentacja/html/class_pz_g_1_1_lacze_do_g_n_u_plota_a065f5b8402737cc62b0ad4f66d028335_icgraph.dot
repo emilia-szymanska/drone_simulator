@@ -1,0 +1,21 @@
+digraph "PzG::LaczeDoGNUPlota::Rysuj"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node50 [label="PzG::LaczeDoGNUPlota\l::Rysuj",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node50 -> Node51 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node51 [label="APIGnuPlot3D::rysuj\l_linie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a64c427cfb58bb2164ce8ecf7ec6e5202"];
+  Node50 -> Node52 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node52 [label="APIGnuPlot3D::rysuj\l_prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a37b877d2baa3a2b1f7dd31dab9bfaa20"];
+  Node50 -> Node53 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node53 [label="APIGnuPlot3D::rysuj\l_graniastoslup6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a0cd2d2acf54bec43479fdaa7e6baae96"];
+  Node50 -> Node54 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node54 [label="APIGnuPlot3D::wymaz\l_ksztalt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a25114ee88943eb8b385fdf82af03561c"];
+  Node50 -> Node55 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node55 [label="APIGnuPlot3D::aktualizuj\l_linie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a432b987e251e41f61bcc098ee73db2cd"];
+  Node50 -> Node56 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node56 [label="APIGnuPlot3D::aktualizuj\l_prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a82edd97f7a5e75abebe67618abefda22"];
+  Node50 -> Node57 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node57 [label="APIGnuPlot3D::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a36da8d6cd65e79b1e1ee70db6a6bcc2f"];
+}

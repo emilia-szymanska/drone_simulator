@@ -1,0 +1,34 @@
+digraph "Prostopadloscian::Prostopadloscian"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Prostopadloscian::Prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Prostopadloscian::przesunowektor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ace7e53c3885b4ec60510f7b6d72c7768"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Prostopadloscian::obrocokat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#acf725601fd5f2190d860279b384329e6"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Prostopadloscian::pobierzpunkty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#a9136c416e6e3073dc29b2619dd9df0db"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Prostopadloscian::zwroc4srodki",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#a870c8e7e36f441d393c9e39700327cb9"];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Prostopadloscian::wyswietl\l_wierzcholki",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ad060bf4291990fa4a869282f16464ca1"];
+  Node5 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Prostopadloscian::wyswietlczypoprawne",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#afa8b83987f890d079496aaba624a38d7"];
+  Node6 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="ABS",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_prostopadloscian_8cpp.html#acc0bfc00cce8d4bfe2b369da5273cf9a"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="Prostopadloscian::obrocomacierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ad4e2552417765caf7629c620440bfe76"];
+  Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Prostopadloscian::wyswietlmobrotu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#aa8d9f07ea778a16ee95fb7fbb06c8d75"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Prostopadloscian::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#afd6dbd322a3555b5fc4a708a9bc5d6eb"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="API3D::rysuj_prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i3_d.html#aa4d2540dd5e17d66740034838221e905"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="operator\<\<",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_prostopadloscian_8hh.html#a0a77f9bb1cc3f07e11031b947e6e7322"];
+}

@@ -1,0 +1,29 @@
+digraph "inc/Obiekt_graficzny.hh"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node15 [label="inc/Obiekt_graficzny.hh",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node15 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="inc/Prostopadloscian.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_prostopadloscian_8hh.html"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="inc/Dron.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dron_8hh.html"];
+  Node17 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="inc/menu.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8hh.html"];
+  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="src/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node18 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="src/menu.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8cpp.html"];
+  Node17 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="src/Dron.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_dron_8cpp.html"];
+  Node17 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="src/Prostopadloscian.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_prostopadloscian_8cpp.html"];
+  Node15 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="inc/Graniastoslup6.hh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_graniastoslup6_8hh.html"];
+  Node23 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="src/Graniastoslup6.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_graniastoslup6_8cpp.html"];
+  Node23 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

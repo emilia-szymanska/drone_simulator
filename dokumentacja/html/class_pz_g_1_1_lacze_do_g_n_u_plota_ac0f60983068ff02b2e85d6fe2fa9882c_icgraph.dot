@@ -1,0 +1,15 @@
+digraph "PzG::LaczeDoGNUPlota::DodajNazwePliku"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="PzG::LaczeDoGNUPlota\l::DodajNazwePliku",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node16 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="APIGnuPlot3D::rysuj\l_linie",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a64c427cfb58bb2164ce8ecf7ec6e5202"];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="APIGnuPlot3D::rysuj\l_prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a37b877d2baa3a2b1f7dd31dab9bfaa20"];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="APIGnuPlot3D::rysuj\l_graniastoslup6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a0cd2d2acf54bec43479fdaa7e6baae96"];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="APIGnuPlot3D::wymaz\l_ksztalt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i_gnu_plot3_d.html#a25114ee88943eb8b385fdf82af03561c"];
+}

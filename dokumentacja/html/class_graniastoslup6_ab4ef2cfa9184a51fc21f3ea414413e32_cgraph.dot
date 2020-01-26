@@ -1,0 +1,20 @@
+digraph "Graniastoslup6::Graniastoslup6"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node2 [label="Graniastoslup6::Graniastoslup6",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Graniastoslup6::przesunowektor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#afe5fc6dc99a88f300f176f9d0cb2e3e1"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Graniastoslup6::obrocokat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a0aeb55be45dd6ad27b58d6b9fb9ed948"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Graniastoslup6::obrocomacierz",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a9dbb934d8e9b81d9f16987cbdf3efc66"];
+  Node2 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Graniastoslup6::pobierzpunkty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a93cfb46c87c5dd10a18bb10c745c0602"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Graniastoslup6::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a2f0a86d9396c80440859c1e7705366f7"];
+  Node7 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="API3D::rysuj_graniastoslup6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i3_d.html#a9bf422b0020a007945b8a4452caf57ca"];
+}

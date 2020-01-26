@@ -1,0 +1,36 @@
+digraph "main"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="main",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="Dron::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron.html#a6c0625dd2bc1a692a39ed7720340fdac"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Prostopadloscian::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#afd6dbd322a3555b5fc4a708a9bc5d6eb"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="Prostopadloscian::pobierzpunkty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#a9136c416e6e3073dc29b2619dd9df0db"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="API3D::rysuj_prostopadloscian",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i3_d.html#aa4d2540dd5e17d66740034838221e905"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Graniastoslup6::rysuj",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a2f0a86d9396c80440859c1e7705366f7"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="Graniastoslup6::pobierzpunkty",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_graniastoslup6.html#a93cfb46c87c5dd10a18bb10c745c0602"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="API3D::rysuj_graniastoslup6",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_a_p_i3_d.html#a9bf422b0020a007945b8a4452caf57ca"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$menu_8hh.html#a32558d87c910f3fb076aab4729d72b33"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="Wektor\< 3 \>::statystyka\l_wektorow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_wektor.html#a51143b4360237bf1837166b5178d75d4"];
+  Node8 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Dron::przod",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron.html#ae220b29de588194330ba0f6620060790"];
+  Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="torad",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_macierz_8hh.html#a1febcc0fdf9b9f7f0c8390a2f2a15c4b"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="Prostopadloscian::przesunowektor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#ace7e53c3885b4ec60510f7b6d72c7768"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="Dron::obrot",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_dron.html#ae99fa8c6c161332796b08cd3bf3c434c"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="Prostopadloscian::obrocokat",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_prostopadloscian.html#acf725601fd5f2190d860279b384329e6"];
+}
