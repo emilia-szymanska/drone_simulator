@@ -18,5 +18,4 @@ Whole documentation was prepared with Doxygen tools. It is written in Polish as 
 
 ### Authors
 * **Emilia Szymańska** - all functionalities connected with drones and obstacles   
-* **MSc Arkadiusz Mielczarek** & **Dr Bogdan Kreczmer**- _lacze_do_gnuplota_ and _API_ files 
-Files _lacze_do_gnuplota_ and _API_ were given to students by teachers who allowed to use them to develop their projects.
+* **MSc Arkadiusz Mielczarek** & **Dr Bogdan Kreczmer**- _lacze_do_gnuplota_ and _API_ files (which were given to all students to help them develop their projects)
